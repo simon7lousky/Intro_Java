@@ -9,7 +9,10 @@ public class PointTester
 {
     public static void main()
     {
+
         System.out.println("============ Testing class Point =============");
+
+
         Point p1 = new Point(3.0, 4.0);
         Point p2 = new Point(p1);
         double d1 = p1.getX();
